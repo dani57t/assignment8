@@ -1,0 +1,74 @@
+#form-container {
+    text-align: center;
+}
+
+#form-heading {
+    margin-bottom: 5%;
+}
+
+#search-input {
+    margin-bottom: 5%;
+}
+
+#search-button {
+    background-color: rgb(141, 184, 22);
+    border: 2px solid green;
+    color: azure;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+#search-button:hover {
+    background-color: rgba(141, 184, 22, 0.75);
+}
+
+#search-button:active {
+    background-color: rgb(115, 150, 19);
+}
+
+.today-border {
+    border: 2px solid black;
+}
+
+#today {
+    text-shadow: 1px 1px #ffffff;
+}
+
+#forecast {
+    align-content: center;
+}
+
+.card {
+    margin-top: 2%;
+}
+
+#clear-button {
+    background-color: rgb(248, 98, 98, 0.7);
+    margin-top: 10%;
+    width: 100%;
+}
+
+/* Weather type classes */
+.clear {
+    background: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(27,143,208,0.7) 0%, rgba(0,212,255,0.7) 100%);
+}
+
+.clouds {
+    background: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(49,66,75,0.7) 0%, rgba(151,233,250,0.7) 100%);
+}
+
+.rain {
+    background: linear-gradient(0deg, rgba(0,125,255,0.7) 0%, rgba(96,98,103,0.7) 100%);
+}
+
+.snow {
+    background: linear-gradient(0deg, rgba(255,255,255,0.7) 0%, rgba(200,224,255,0.7) 100%);
+}
+
+.storm {
+    background: radial-gradient(circle, rgba(19,102,200,0.7) 0%, rgba(0,0,0,0.7) 100%);
+}
+
+.other {
+    background: radial-gradient(circle, rgba(120,118,118,0.7) 0%, rgba(255,238,160,0.7) 100%);
+}
